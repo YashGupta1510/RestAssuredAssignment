@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+	<test thread-count="5" name="Create and delete flow(failed)">
+		<groups>
+			<run>
+				<include name="CardFlow" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.CardsAPITest">
+				<methods>
+					<include name="createCardByNameTest" />
+				</methods>
+			</class> <!--
+			tests.CardsAPITest -->
+			<class name="tests.ListAPITest">
+				<methods>
+					<include name="createListWithNameOnBoardWithID" />
+				</methods>
+			</class> <!--
+			tests.ListAPITest -->
+			<class name="tests.BoardsAPITest">
+				<methods>
+					<include name="createBoardByNameTest" />
+				</methods>
+			</class> <!--
+			tests.BoardsAPITest -->
+		</classes>
+	</test> <!--
+	Create and delete flow(failed) -->
+</suite> <!--
+Failed suite [Suite] -->
