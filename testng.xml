@@ -2,35 +2,36 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="TestSuite">
 	<listeners>
-        <listener class-name="utils.TestNGListener"/>
-    </listeners>
-   <test thread-count="5" name="RunAllTests">
-    	<classes>
-			<class name="tests.BoardsAPITest"/>
-    	</classes>
-  	</test> <!--RunAllTests -->
-  	<test name="Create flow">  
-      	<groups>  
-         	<run>  
-            	<include name="CardFlowCreate"/>  
-         	</run>  
-      	</groups> 
-      	<classes>
-			<class name="tests.BoardsAPITest"/>
-      		<class name="tests.ListAPITest"/>
-      		<class name="tests.CardsAPITest"/>
-    	</classes>
-    </test>  
-    <test name="Delete flow">  
-      	<groups>  
-         	<run>  
-            	<include name="CardFlowDelete"/>  
-         	</run>  
-      	</groups> 
-      	<classes>
-      		<class name="tests.CardsAPITest"/>
-      		<class name="tests.ListAPITest"/>
-			<class name="tests.BoardsAPITest"/>
-    	</classes>
-    </test>  
-</suite> <!-- TestSuite -->
+		<listener class-name="utils.TestNGListener" />
+	</listeners>
+	<test thread-count="5" name="RunAllTests">
+		<classes>
+			<class name="tests.BoardsAPITest" />
+		</classes>
+	</test> <!--RunAllTests -->
+	<test name="Create flow">
+		<groups>
+			<run>
+				<include name="CardFlowCreate" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.BoardsAPITest" />
+			<class name="tests.ListAPITest" />
+			<class name="tests.CardsAPITest" />
+		</classes>
+	</test>
+	<test name="Delete flow">
+		<groups>
+			<run>
+				<include name="CardFlowDelete" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.CardsAPITest" />
+			<class name="tests.ListAPITest" />
+			<class name="tests.BoardsAPITest" />
+		</classes>
+	</test>
+</suite> <!--
+TestSuite -->
