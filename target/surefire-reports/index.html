@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">12 methods,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -155,6 +155,11 @@
                         <a href="#" panel-name="suite-TestSuite" title="tests.BoardsAPITest" class="method navigator-link" hash-for-method="testWrongResourceIssue">testWrongResourceIssue</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="tests.CardsAPITest" class="method navigator-link" hash-for-method="updateCardByNameTest">updateCardByNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-TestSuite -->
                   </li>
                 </ul>
@@ -215,6 +220,15 @@
                   <span class="method-name">deleteCard</span>
                   <em>
 (delete Card with a name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateCardByNameTest">
+                  </a> <!-- updateCardByNameTest -->
+                  <span class="method-name">updateCardByNameTest</span>
+                  <em>
+(Updates Card with a new name)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -303,11 +317,11 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utils.TestNGListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;RunAllTests&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Individual Tests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.BoardsAPITest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- RunAllTests --&gt;
+  &lt;/test&gt; &lt;!-- Individual Tests --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Create flow&quot; verbose=&quot;0&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -343,7 +357,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">RunAllTests (1 class)</span>
+                <span class="test-name">Individual Tests (1 class)</span>
               </li>
               <li>
                 <span class="test-name">Create flow (3 classes)</span>
@@ -372,6 +386,10 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">createListWithNameOnBoardWithID</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateCardByNameTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -423,56 +441,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createBoardByNameTest')
 data.setCell(0, 2, 'tests.BoardsAPITest')
-data.setCell(0, 3, 14866);
+data.setCell(0, 3, 14122);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'deleteBoardTest')
 data.setCell(1, 2, 'tests.BoardsAPITest')
-data.setCell(1, 3, 1994);
+data.setCell(1, 3, 1838);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'deleteBoardTest')
 data.setCell(2, 2, 'tests.BoardsAPITest')
-data.setCell(2, 3, 1935);
+data.setCell(2, 3, 1449);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createListWithNameOnBoardWithID')
-data.setCell(3, 2, 'tests.ListAPITest')
-data.setCell(3, 3, 1934);
+data.setCell(3, 1, 'deleteCard')
+data.setCell(3, 2, 'tests.CardsAPITest')
+data.setCell(3, 3, 804);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deleteCard')
-data.setCell(4, 2, 'tests.CardsAPITest')
-data.setCell(4, 3, 914);
+data.setCell(4, 1, 'createBoardByNameTest')
+data.setCell(4, 2, 'tests.BoardsAPITest')
+data.setCell(4, 3, 754);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'createBoardByNameTest')
-data.setCell(5, 2, 'tests.BoardsAPITest')
-data.setCell(5, 3, 659);
+data.setCell(5, 1, 'createCardByNameTest')
+data.setCell(5, 2, 'tests.CardsAPITest')
+data.setCell(5, 3, 578);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'createCardByNameTest')
-data.setCell(6, 2, 'tests.CardsAPITest')
-data.setCell(6, 3, 643);
+data.setCell(6, 1, 'createListWithNameOnBoardWithID')
+data.setCell(6, 2, 'tests.ListAPITest')
+data.setCell(6, 3, 565);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testWrongResourceIssue')
-data.setCell(7, 2, 'tests.BoardsAPITest')
-data.setCell(7, 3, 571);
+data.setCell(7, 1, 'updateCardByNameTest')
+data.setCell(7, 2, 'tests.CardsAPITest')
+data.setCell(7, 3, 489);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testBadRequestIssue')
-data.setCell(8, 2, 'tests.BoardsAPITest')
-data.setCell(8, 3, 489);
+data.setCell(8, 1, 'deleteListID')
+data.setCell(8, 2, 'tests.ListAPITest')
+data.setCell(8, 3, 456);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'deleteListID')
-data.setCell(9, 2, 'tests.ListAPITest')
-data.setCell(9, 3, 404);
+data.setCell(9, 1, 'testBadRequestIssue')
+data.setCell(9, 2, 'tests.BoardsAPITest')
+data.setCell(9, 3, 443);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testWrongCredentialsIssue')
+data.setCell(10, 1, 'testWrongResourceIssue')
 data.setCell(10, 2, 'tests.BoardsAPITest')
-data.setCell(10, 3, 376);
+data.setCell(10, 3, 430);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testWrongCredentialsIssue')
+data.setCell(11, 2, 'tests.BoardsAPITest')
+data.setCell(11, 3, 390);
 window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-TestSuite">
               </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
@@ -487,7 +509,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">16 ignored methods</span>
+            <span class="header-content">17 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -502,6 +524,8 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">tests.CardsAPITest</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">updateCardByNameTest</span>
+                <br/>
                 <span class="ignored-method-name">createCardByNameTest</span>
                 <br/>
                 <span class="ignored-method-name">getCardByIDTest</span>
@@ -552,55 +576,59 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteBoardTest</span>
-                <span class="method-start">14869 ms</span>
+                <span class="method-start">14122 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testBadRequestIssue</span>
-                <span class="method-start">16865 ms</span>
+                <span class="method-start">15962 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testWrongCredentialsIssue</span>
-                <span class="method-start">17358 ms</span>
+                <span class="method-start">16405 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testWrongResourceIssue</span>
-                <span class="method-start">17735 ms</span>
+                <span class="method-start">16795 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createBoardByNameTest</span>
-                <span class="method-start">18360 ms</span>
+                <span class="method-start">17267 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ListAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createListWithNameOnBoardWithID</span>
-                <span class="method-start">19020 ms</span>
+                <span class="method-start">18028 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.CardsAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createCardByNameTest</span>
-                <span class="method-start">20956 ms</span>
+                <span class="method-start">18593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateCardByNameTest</span>
+                <span class="method-start">19171 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteCard</span>
-                <span class="method-start">21610 ms</span>
+                <span class="method-start">19676 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ListAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deleteListID</span>
-                <span class="method-start">22526 ms</span>
+                <span class="method-start">20480 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.BoardsAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deleteBoardTest</span>
-                <span class="method-start">22931 ms</span>
+                <span class="method-start">20936 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
