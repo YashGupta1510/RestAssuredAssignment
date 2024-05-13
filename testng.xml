@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="utils.TestNGListener" />
 	</listeners>
-	<test thread-count="5" name="RunAllTests">
+	<test thread-count="5" name="Individual Tests">
 		<classes>
 			<class name="tests.BoardsAPITest" />
 		</classes>

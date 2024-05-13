@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
-	<test thread-count="5" name="RunAllTests(failed)">
-		<classes>
-			<class name="tests.CardsAPITest">
-				<methods>
-					<include name="setReport" />
-					<include name="createCardByNameTest" />
-					<include name="getResult" />
-					<include name="deleteCard" />
-					<include name="setup" />
-					<include name="finishReport" />
-				</methods>
-			</class> <!--
-			tests.CardsAPITest -->
-			<class name="tests.ListAPITest">
-				<methods>
-					<include name="setReport" />
-					<include name="createListWithNameOnBoardWithID" />
-					<include name="getResult" />
-					<include name="setup" />
-					<include name="deleteListID" />
-					<include name="finishReport" />
-				</methods>
-			</class> <!--
-			tests.ListAPITest -->
-		</classes>
-	</test> <!--
-	RunAllTests(failed) -->
-</suite> <!--
-Failed suite [TestSuite] -->
+  <listeners>
+    <listener class-name="utils.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Create flow(failed)">
+    <groups>
+      <run>
+        <include name="CardFlowCreate"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.CardsAPITest">
+        <methods>
+          <include name="updateCardByNameTest"/>
+        </methods>
+      </class> <!-- tests.CardsAPITest -->
+    </classes>
+  </test> <!-- Create flow(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,159 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="18" passed="8" failed="0" skipped="0">
-	<reporter-output>
-	</reporter-output>
-	<suite started-at="2024-05-10T13:56:00Z" name="TestSuite"
-		finished-at="2024-05-10T13:56:20Z" duration-ms="20079">
-		<groups>
-			<group name="CardFlowDelete">
-				<method
-					signature="BoardsAPITest.deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@22d6cac2]"
-					name="deleteBoardTest" class="tests.BoardsAPITest" />
-				<method
-					signature="BoardsAPITest.deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@78b236a0]"
-					name="deleteBoardTest" class="tests.BoardsAPITest" />
-				<method
-					signature="CardsAPITest.deleteCard()[pri:0, instance:tests.CardsAPITest@778ca8ef]"
-					name="deleteCard" class="tests.CardsAPITest" />
-				<method
-					signature="ListAPITest.deleteListID()[pri:0, instance:tests.ListAPITest@208e9ef6]"
-					name="deleteListID" class="tests.ListAPITest" />
-			</group> <!--
-			CardFlowDelete -->
-			<group name="CardFlowCreate">
-				<method
-					signature="BoardsAPITest.createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@22d6cac2]"
-					name="createBoardByNameTest" class="tests.BoardsAPITest" />
-				<method
-					signature="BoardsAPITest.createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@42d236fb]"
-					name="createBoardByNameTest" class="tests.BoardsAPITest" />
-				<method
-					signature="CardsAPITest.createCardByNameTest()[pri:0, instance:tests.CardsAPITest@19f21b6b]"
-					name="createCardByNameTest" class="tests.CardsAPITest" />
-				<method
-					signature="ListAPITest.createListWithNameOnBoardWithID()[pri:0, instance:tests.ListAPITest@1ce93c18]"
-					name="createListWithNameOnBoardWithID"
-					class="tests.ListAPITest" />
-			</group> <!--
-			CardFlowCreate -->
-		</groups>
-		<test started-at="2024-05-10T13:56:00Z" name="RunAllTests"
-			finished-at="2024-05-10T13:56:15Z" duration-ms="15130">
-			<class name="tests.BoardsAPITest">
-				<test-method
-					signature="createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@22d6cac2]"
-					started-at="2024-05-10T13:56:00Z"
-					name="createBoardByNameTest"
-					description="Creates Board with a name"
-					finished-at="2024-05-10T13:56:13Z" duration-ms="13607"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				createBoardByNameTest -->
-				<test-method
-					signature="deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@22d6cac2]"
-					started-at="2024-05-10T13:56:13Z" name="deleteBoardTest"
-					description="deletes Board"
-					finished-at="2024-05-10T13:56:15Z" duration-ms="1486"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				deleteBoardTest -->
-			</class> <!--
-			tests.BoardsAPITest -->
-		</test> <!--
-		RunAllTests -->
-		<test started-at="2024-05-10T13:56:15Z" name="Create flow"
-			finished-at="2024-05-10T13:56:17Z" duration-ms="2017">
-			<class name="tests.BoardsAPITest">
-				<test-method
-					signature="createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@42d236fb]"
-					started-at="2024-05-10T13:56:15Z"
-					name="createBoardByNameTest"
-					description="Creates Board with a name"
-					finished-at="2024-05-10T13:56:16Z" duration-ms="654"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				createBoardByNameTest -->
-			</class> <!--
-			tests.BoardsAPITest -->
-			<class name="tests.CardsAPITest">
-				<test-method
-					signature="createCardByNameTest()[pri:0, instance:tests.CardsAPITest@19f21b6b]"
-					started-at="2024-05-10T13:56:16Z"
-					name="createCardByNameTest"
-					description="Creates Card with a name"
-					finished-at="2024-05-10T13:56:17Z" duration-ms="692"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				createCardByNameTest -->
-			</class> <!--
-			tests.CardsAPITest -->
-			<class name="tests.ListAPITest">
-				<test-method
-					signature="createListWithNameOnBoardWithID()[pri:0, instance:tests.ListAPITest@1ce93c18]"
-					started-at="2024-05-10T13:56:16Z"
-					name="createListWithNameOnBoardWithID"
-					description="Creates list with a name on the board"
-					finished-at="2024-05-10T13:56:16Z" duration-ms="663"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				createListWithNameOnBoardWithID -->
-			</class> <!--
-			tests.ListAPITest -->
-		</test> <!--
-		Create flow -->
-		<test started-at="2024-05-10T13:56:17Z" name="Delete flow"
-			finished-at="2024-05-10T13:56:20Z" duration-ms="2882">
-			<class name="tests.BoardsAPITest">
-				<test-method
-					signature="deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@78b236a0]"
-					started-at="2024-05-10T13:56:18Z" name="deleteBoardTest"
-					description="deletes Board"
-					finished-at="2024-05-10T13:56:20Z" duration-ms="1501"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				deleteBoardTest -->
-			</class> <!--
-			tests.BoardsAPITest -->
-			<class name="tests.CardsAPITest">
-				<test-method
-					signature="deleteCard()[pri:0, instance:tests.CardsAPITest@778ca8ef]"
-					started-at="2024-05-10T13:56:17Z" name="deleteCard"
-					description="delete Card with a name"
-					finished-at="2024-05-10T13:56:18Z" duration-ms="929"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				deleteCard -->
-			</class> <!--
-			tests.CardsAPITest -->
-			<class name="tests.ListAPITest">
-				<test-method
-					signature="deleteListID()[pri:0, instance:tests.ListAPITest@208e9ef6]"
-					started-at="2024-05-10T13:56:18Z" name="deleteListID"
-					description="deletes list"
-					finished-at="2024-05-10T13:56:18Z" duration-ms="445"
-					status="PASS">
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!--
-				deleteListID -->
-			</class> <!--
-			tests.ListAPITest -->
-		</test> <!--
-		Delete flow -->
-	</suite> <!--
-	TestSuite -->
+<testng-results ignored="17" total="29" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-13T08:25:29Z" name="TestSuite" finished-at="2024-05-13T08:25:53Z" duration-ms="24251">
+    <groups>
+      <group name="CardFlowDelete">
+        <method signature="BoardsAPITest.deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" name="deleteBoardTest" class="tests.BoardsAPITest"/>
+        <method signature="BoardsAPITest.deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@907f2b7]" name="deleteBoardTest" class="tests.BoardsAPITest"/>
+        <method signature="CardsAPITest.deleteCard()[pri:0, instance:tests.CardsAPITest@34448e6c]" name="deleteCard" class="tests.CardsAPITest"/>
+        <method signature="ListAPITest.deleteListID()[pri:0, instance:tests.ListAPITest@60e9df3c]" name="deleteListID" class="tests.ListAPITest"/>
+      </group> <!-- CardFlowDelete -->
+      <group name="CardFlowCreate">
+        <method signature="BoardsAPITest.createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" name="createBoardByNameTest" class="tests.BoardsAPITest"/>
+        <method signature="BoardsAPITest.createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@46044faa]" name="createBoardByNameTest" class="tests.BoardsAPITest"/>
+        <method signature="CardsAPITest.createCardByNameTest()[pri:0, instance:tests.CardsAPITest@1a78dacd]" name="createCardByNameTest" class="tests.CardsAPITest"/>
+        <method signature="CardsAPITest.updateCardByNameTest()[pri:0, instance:tests.CardsAPITest@1a78dacd]" name="updateCardByNameTest" class="tests.CardsAPITest"/>
+        <method signature="ListAPITest.createListWithNameOnBoardWithID()[pri:0, instance:tests.ListAPITest@1358b28e]" name="createListWithNameOnBoardWithID" class="tests.ListAPITest"/>
+      </group> <!-- CardFlowCreate -->
+      <group name="FailTest">
+        <method signature="BoardsAPITest.testBadRequestIssue()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" name="testBadRequestIssue" class="tests.BoardsAPITest"/>
+        <method signature="BoardsAPITest.testWrongCredentialsIssue()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" name="testWrongCredentialsIssue" class="tests.BoardsAPITest"/>
+        <method signature="BoardsAPITest.testWrongResourceIssue()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" name="testWrongResourceIssue" class="tests.BoardsAPITest"/>
+      </group> <!-- FailTest -->
+    </groups>
+    <test started-at="2024-05-13T08:25:29Z" name="Individual Tests" finished-at="2024-05-13T08:25:46Z" duration-ms="17403">
+      <class name="tests.BoardsAPITest">
+        <test-method signature="createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" started-at="2024-05-13T08:25:29Z" name="createBoardByNameTest" description="Creates Board with a name" finished-at="2024-05-13T08:25:43Z" duration-ms="13994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoardByNameTest -->
+        <test-method signature="deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" started-at="2024-05-13T08:25:43Z" name="deleteBoardTest" description="deletes Board" finished-at="2024-05-13T08:25:45Z" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoardTest -->
+        <test-method signature="testBadRequestIssue()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" started-at="2024-05-13T08:25:45Z" name="testBadRequestIssue" description="Assert for Bad Request issue" finished-at="2024-05-13T08:25:45Z" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBadRequestIssue -->
+        <test-method signature="testWrongCredentialsIssue()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" started-at="2024-05-13T08:25:45Z" name="testWrongCredentialsIssue" description="Assert for wrong token issue" finished-at="2024-05-13T08:25:46Z" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongCredentialsIssue -->
+        <test-method signature="testWrongResourceIssue()[pri:0, instance:tests.BoardsAPITest@2577d6c8]" started-at="2024-05-13T08:25:46Z" name="testWrongResourceIssue" description="Assert for wrong resource issue" finished-at="2024-05-13T08:25:46Z" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongResourceIssue -->
+      </class> <!-- tests.BoardsAPITest -->
+    </test> <!-- Individual Tests -->
+    <test started-at="2024-05-13T08:25:46Z" name="Create flow" finished-at="2024-05-13T08:25:49Z" duration-ms="2824">
+      <class name="tests.BoardsAPITest">
+        <test-method signature="createBoardByNameTest()[pri:0, instance:tests.BoardsAPITest@46044faa]" started-at="2024-05-13T08:25:46Z" name="createBoardByNameTest" description="Creates Board with a name" finished-at="2024-05-13T08:25:47Z" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoardByNameTest -->
+      </class> <!-- tests.BoardsAPITest -->
+      <class name="tests.CardsAPITest">
+        <test-method signature="createCardByNameTest()[pri:0, instance:tests.CardsAPITest@1a78dacd]" started-at="2024-05-13T08:25:48Z" name="createCardByNameTest" description="Creates Card with a name" finished-at="2024-05-13T08:25:48Z" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCardByNameTest -->
+        <test-method signature="updateCardByNameTest()[pri:0, instance:tests.CardsAPITest@1a78dacd]" started-at="2024-05-13T08:25:48Z" name="updateCardByNameTest" description="Updates Card with a new name" finished-at="2024-05-13T08:25:49Z" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCardByNameTest -->
+      </class> <!-- tests.CardsAPITest -->
+      <class name="tests.ListAPITest">
+        <test-method signature="createListWithNameOnBoardWithID()[pri:0, instance:tests.ListAPITest@1358b28e]" started-at="2024-05-13T08:25:47Z" name="createListWithNameOnBoardWithID" description="Creates list with a name on the board" finished-at="2024-05-13T08:25:48Z" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListWithNameOnBoardWithID -->
+      </class> <!-- tests.ListAPITest -->
+    </test> <!-- Create flow -->
+    <test started-at="2024-05-13T08:25:49Z" name="Delete flow" finished-at="2024-05-13T08:25:53Z" duration-ms="3956">
+      <class name="tests.BoardsAPITest">
+        <test-method signature="deleteBoardTest()[pri:0, instance:tests.BoardsAPITest@907f2b7]" started-at="2024-05-13T08:25:51Z" name="deleteBoardTest" description="deletes Board" finished-at="2024-05-13T08:25:53Z" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoardTest -->
+      </class> <!-- tests.BoardsAPITest -->
+      <class name="tests.CardsAPITest">
+        <test-method signature="deleteCard()[pri:0, instance:tests.CardsAPITest@34448e6c]" started-at="2024-05-13T08:25:49Z" name="deleteCard" description="delete Card with a name" finished-at="2024-05-13T08:25:50Z" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCard -->
+      </class> <!-- tests.CardsAPITest -->
+      <class name="tests.ListAPITest">
+        <test-method signature="deleteListID()[pri:0, instance:tests.ListAPITest@60e9df3c]" started-at="2024-05-13T08:25:50Z" name="deleteListID" description="deletes list" finished-at="2024-05-13T08:25:51Z" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteListID -->
+      </class> <!-- tests.ListAPITest -->
+    </test> <!-- Delete flow -->
+  </suite> <!-- TestSuite -->
 </testng-results>

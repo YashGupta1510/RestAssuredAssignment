@@ -1,4 +1,4 @@
-10-05-2024 19:26:00.015 [main] INFO  pages.BasePage - 
+13-05-2024 13:53:09.779 [main] INFO  pages.BasePage - 
 
           __   _,--="=--,_   __
          /  \."    .-.    "./  \
@@ -15,13 +15,13 @@
 '---------------------------------------'
 
  
-10-05-2024 19:26:00.276 [main] INFO  pages.BasePage - ------------------RunAllTests Test Started-------------------
-10-05-2024 19:26:00.279 [main] INFO  pages.BasePage - ------------------RunAllTests Test Started-------------------
-10-05-2024 19:26:00.322 [main] INFO  api.BoardsAPI - Testing create Board name = TestingCreateBoard
-10-05-2024 19:26:00.840 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:00.840 [main] INFO  api.BoardsAPI - With Payload {name=TestingCreateBoard}
-10-05-2024 19:26:13.406 [main] INFO  api.BoardsAPI - This was response Body: {
-    "id": "663e277c5ddd6777f41cfe0d",
+13-05-2024 13:53:10.044 [main] INFO  pages.BasePage - ------------------Individual Tests Test Started-------------------
+13-05-2024 13:53:10.046 [main] INFO  pages.BasePage - ------------------Individual Tests Test Started-------------------
+13-05-2024 13:53:10.074 [main] INFO  api.BoardsAPI - Testing create Board name = TestingCreateBoard
+13-05-2024 13:53:10.662 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:10.662 [main] INFO  api.BoardsAPI - With Payload {name=TestingCreateBoard}
+13-05-2024 13:53:23.431 [main] INFO  api.BoardsAPI - This was response Body: {
+    "id": "6641cdfa21baf1a79d5d5920",
     "name": "TestingCreateBoard",
     "desc": "",
     "descData": null,
@@ -29,8 +29,8 @@
     "idOrganization": "663c66757eab4f2b4b8f8bf4",
     "idEnterprise": null,
     "pinned": false,
-    "url": "https://trello.com/b/eznavb2S/testingcreateboard",
-    "shortUrl": "https://trello.com/b/eznavb2S",
+    "url": "https://trello.com/b/qnBSqoky/testingcreateboard",
+    "shortUrl": "https://trello.com/b/qnBSqoky",
     "prefs": {
         "permissionLevel": "private",
         "hideVotes": false,
@@ -123,24 +123,42 @@
         
     }
 }
-10-05-2024 19:26:13.912 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:13.914 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:13.915 [main] INFO  api.BoardsAPI - Testing delete Card ID = 663e277c5ddd6777f41cfe0d
-10-05-2024 19:26:13.916 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/663e277c5ddd6777f41cfe0d?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:15.398 [main] INFO  api.BoardsAPI - This was response Body: {
+13-05-2024 13:53:24.244 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:24.246 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:24.248 [main] INFO  api.BoardsAPI - Testing delete Card ID = 6641cdfa21baf1a79d5d5920
+13-05-2024 13:53:24.248 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/6641cdfa21baf1a79d5d5920?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:26.679 [main] INFO  api.BoardsAPI - This was response Body: {
     "_value": null
 }
-10-05-2024 19:26:15.400 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:15.403 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:15.405 [main] INFO  pages.BasePage - ------------------RunAllTests Test Finished-------------------
-10-05-2024 19:26:15.446 [main] INFO  pages.BasePage - ------------------RunAllTests Test Finished-------------------
-10-05-2024 19:26:15.447 [main] INFO  pages.BasePage - ------------------Create flow Test Started-------------------
-10-05-2024 19:26:15.448 [main] INFO  pages.BasePage - ------------------Create flow Test Started-------------------
-10-05-2024 19:26:15.450 [main] INFO  api.BoardsAPI - Testing create Board name = TestingCreateBoard
-10-05-2024 19:26:15.451 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:15.451 [main] INFO  api.BoardsAPI - With Payload {name=TestingCreateBoard}
-10-05-2024 19:26:16.071 [main] INFO  api.BoardsAPI - This was response Body: {
-    "id": "663e277f4da8b4ca34815fa9",
+13-05-2024 13:53:26.681 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:26.683 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:26.687 [main] INFO  api.BoardsAPI - Testing with no params
+13-05-2024 13:53:26.689 [main] INFO  pages.BasePage - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:27.721 [main] INFO  pages.BasePage - This was response Body: {
+    "message": "invalid value for name",
+    "error": "ERROR"
+}
+13-05-2024 13:53:27.723 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:27.726 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:27.730 [main] INFO  api.BoardsAPI - Testing with wrong Token
+13-05-2024 13:53:27.732 [main] INFO  pages.BasePage - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10garbage
+13-05-2024 13:53:28.525 [main] INFO  pages.BasePage - This was response Body: invalid app token
+13-05-2024 13:53:28.526 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:28.528 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:28.530 [main] INFO  api.BoardsAPI - Testing with wrong Resource url
+13-05-2024 13:53:28.532 [main] INFO  pages.BasePage - Hitting Endpoint https://api.trello.com/1/wrong-resource/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:29.877 [main] INFO  pages.BasePage - This was response Body: Cannot GET /1/wrong-resource/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:29.878 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:29.880 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:29.882 [main] INFO  pages.BasePage - ------------------Individual Tests Test Finished-------------------
+13-05-2024 13:53:29.929 [main] INFO  pages.BasePage - ------------------Individual Tests Test Finished-------------------
+13-05-2024 13:53:29.930 [main] INFO  pages.BasePage - ------------------Create flow Test Started-------------------
+13-05-2024 13:53:29.934 [main] INFO  pages.BasePage - ------------------Create flow Test Started-------------------
+13-05-2024 13:53:29.939 [main] INFO  api.BoardsAPI - Testing create Board name = TestingCreateBoard
+13-05-2024 13:53:29.940 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:29.941 [main] INFO  api.BoardsAPI - With Payload {name=TestingCreateBoard}
+13-05-2024 13:53:30.687 [main] INFO  api.BoardsAPI - This was response Body: {
+    "id": "6641ce02dcc21548bdafd76b",
     "name": "TestingCreateBoard",
     "desc": "",
     "descData": null,
@@ -148,8 +166,8 @@
     "idOrganization": "663c66757eab4f2b4b8f8bf4",
     "idEnterprise": null,
     "pinned": false,
-    "url": "https://trello.com/b/HicPebPG/testingcreateboard",
-    "shortUrl": "https://trello.com/b/HicPebPG",
+    "url": "https://trello.com/b/Qrtx5R0W/testingcreateboard",
+    "shortUrl": "https://trello.com/b/Qrtx5R0W",
     "prefs": {
         "permissionLevel": "private",
         "hideVotes": false,
@@ -242,29 +260,29 @@
         
     }
 }
-10-05-2024 19:26:16.103 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:16.104 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:16.106 [main] INFO  api.ListAPI - Creating list with name = {idBoard=663e277f4da8b4ca34815fa9, name=TestingCreateList}
-10-05-2024 19:26:16.107 [main] INFO  api.ListAPI - Hitting Endpoint https://api.trello.com/1/lists/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:16.107 [main] INFO  api.ListAPI - With Payload {idBoard=663e277f4da8b4ca34815fa9, name=TestingCreateList}
-10-05-2024 19:26:16.750 [main] INFO  api.ListAPI - This was response Body: {
-    "id": "663e2780d8a58daacc76b4e8",
+13-05-2024 13:53:30.724 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:30.725 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:30.730 [main] INFO  api.ListAPI - Creating list with name = {idBoard=6641ce02dcc21548bdafd76b, name=TestingCreateList}
+13-05-2024 13:53:30.732 [main] INFO  api.ListAPI - Hitting Endpoint https://api.trello.com/1/lists/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:30.732 [main] INFO  api.ListAPI - With Payload {idBoard=6641ce02dcc21548bdafd76b, name=TestingCreateList}
+13-05-2024 13:53:31.298 [main] INFO  api.ListAPI - This was response Body: {
+    "id": "6641ce03b667db97a07e01cf",
     "name": "TestingCreateList",
     "closed": false,
     "color": null,
-    "idBoard": "663e277f4da8b4ca34815fa9",
+    "idBoard": "6641ce02dcc21548bdafd76b",
     "pos": 8192,
     "limits": {
         
     }
 }
-10-05-2024 19:26:16.767 [main] INFO  api.ListAPI - List Created with id = 663e2780d8a58daacc76b4e8
-10-05-2024 19:26:16.768 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:16.770 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:16.772 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:16.773 [main] INFO  api.CardsAPI - With Payload {name=TestingCreateCard, idList=663e2780d8a58daacc76b4e8}
-10-05-2024 19:26:17.443 [main] INFO  api.CardsAPI - This was response Body: {
-    "id": "663e27817ec43a7519293a02",
+13-05-2024 13:53:31.333 [main] INFO  api.ListAPI - List Created with id = 6641ce03b667db97a07e01cf
+13-05-2024 13:53:31.333 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:31.335 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:31.338 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:31.339 [main] INFO  api.CardsAPI - With Payload {name=TestingCreateCard, idList=6641ce03b667db97a07e01cf}
+13-05-2024 13:53:32.527 [main] INFO  api.CardsAPI - This was response Body: {
+    "id": "6641ce03133c00d3d9487c93",
     "badges": {
         "attachmentsByType": {
             "trello": {
@@ -292,7 +310,7 @@
     ],
     "closed": false,
     "dueComplete": false,
-    "dateLastActivity": "2024-05-10T13:56:17.163Z",
+    "dateLastActivity": "2024-05-13T08:23:32.064Z",
     "desc": "",
     "descData": {
         "emoji": {
@@ -302,11 +320,11 @@
     "due": null,
     "dueReminder": null,
     "email": null,
-    "idBoard": "663e277f4da8b4ca34815fa9",
+    "idBoard": "6641ce02dcc21548bdafd76b",
     "idChecklists": [
         
     ],
-    "idList": "663e2780d8a58daacc76b4e8",
+    "idList": "6641ce03b667db97a07e01cf",
     "idMembers": [
         
     ],
@@ -324,11 +342,11 @@
     "manualCoverAttachment": false,
     "name": "TestingCreateCard",
     "pos": 16384,
-    "shortLink": "SPUyU6tZ",
-    "shortUrl": "https://trello.com/c/SPUyU6tZ",
+    "shortLink": "0co61qJ6",
+    "shortUrl": "https://trello.com/c/0co61qJ6",
     "start": null,
     "subscribed": false,
-    "url": "https://trello.com/c/SPUyU6tZ/1-testingcreatecard",
+    "url": "https://trello.com/c/0co61qJ6/1-testingcreatecard",
     "cover": {
         "idAttachment": null,
         "color": null,
@@ -349,40 +367,608 @@
         
     }
 }
-10-05-2024 19:26:17.461 [main] INFO  api.CardsAPI - Card Created with id = 663e27817ec43a7519293a02
-10-05-2024 19:26:17.462 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:17.463 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:17.464 [main] INFO  pages.BasePage - ------------------Create flow Test Finished-------------------
-10-05-2024 19:26:17.471 [main] INFO  pages.BasePage - ------------------Create flow Test Finished-------------------
-10-05-2024 19:26:17.472 [main] INFO  pages.BasePage - ------------------Delete flow Test Started-------------------
-10-05-2024 19:26:17.472 [main] INFO  pages.BasePage - ------------------Delete flow Test Started-------------------
-10-05-2024 19:26:17.474 [main] INFO  api.CardsAPI - Delete Card ID = 663e27817ec43a7519293a02
-10-05-2024 19:26:17.475 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/663e27817ec43a7519293a02?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:18.401 [main] INFO  api.CardsAPI - This was response Body: {
+13-05-2024 13:53:32.570 [main] INFO  api.CardsAPI - Card Created with id = 6641ce03133c00d3d9487c93
+13-05-2024 13:53:32.571 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:32.571 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:32.573 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/6641ce03133c00d3d9487c93?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:33.243 [main] INFO  api.CardsAPI - This was response Body: {
+    "id": "6641ce03133c00d3d9487c93",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [
+        
+    ],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2024-05-13T08:23:32.939Z",
+    "desc": "",
+    "descData": {
+        "emoji": {
+            
+        }
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "6641ce02dcc21548bdafd76b",
+    "idChecklists": [
+        
+    ],
+    "idList": "6641ce03b667db97a07e01cf",
+    "idMembers": [
+        
+    ],
+    "idMembersVoted": [
+        
+    ],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [
+        
+    ],
+    "idLabels": [
+        
+    ],
+    "manualCoverAttachment": false,
+    "name": "",
+    "pos": 16384,
+    "shortLink": "0co61qJ6",
+    "shortUrl": "https://trello.com/c/0co61qJ6",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/0co61qJ6/1--",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null
+}
+13-05-2024 13:53:33.284 [main] ERROR pages.BasePage - ------------------Test Failed-------------------
+13-05-2024 13:53:33.290 [main] ERROR pages.BasePage - ------------------Test Failed-------------------
+13-05-2024 13:53:33.291 [main] INFO  pages.BasePage - ------------------Create flow Test Finished-------------------
+13-05-2024 13:53:33.319 [main] INFO  pages.BasePage - ------------------Create flow Test Finished-------------------
+13-05-2024 13:53:33.319 [main] INFO  pages.BasePage - ------------------Delete flow Test Started-------------------
+13-05-2024 13:53:33.322 [main] INFO  pages.BasePage - ------------------Delete flow Test Started-------------------
+13-05-2024 13:53:33.325 [main] INFO  api.CardsAPI - Delete Card ID = 6641ce03133c00d3d9487c93
+13-05-2024 13:53:33.327 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/6641ce03133c00d3d9487c93?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:34.165 [main] INFO  api.CardsAPI - This was response Body: {
     "limits": {
         
     }
 }
-10-05-2024 19:26:18.402 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:18.404 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:18.405 [main] INFO  api.ListAPI - archiving list with id = 663e2780d8a58daacc76b4e8
-10-05-2024 19:26:18.406 [main] INFO  api.ListAPI - Hitting Endpoint https://api.trello.com/1/lists/663e2780d8a58daacc76b4e8?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:18.849 [main] INFO  api.ListAPI - This was response Body: {
-    "id": "663e2780d8a58daacc76b4e8",
+13-05-2024 13:53:34.166 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:34.169 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:34.172 [main] INFO  api.ListAPI - archiving list with id = 6641ce03b667db97a07e01cf
+13-05-2024 13:53:34.173 [main] INFO  api.ListAPI - Hitting Endpoint https://api.trello.com/1/lists/6641ce03b667db97a07e01cf?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:34.882 [main] INFO  api.ListAPI - This was response Body: {
+    "id": "6641ce03b667db97a07e01cf",
     "name": "TestingCreateList",
     "closed": false,
     "color": null,
-    "idBoard": "663e277f4da8b4ca34815fa9",
+    "idBoard": "6641ce02dcc21548bdafd76b",
     "pos": 8192
 }
-10-05-2024 19:26:18.849 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:18.850 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:18.852 [main] INFO  api.BoardsAPI - Testing delete Card ID = 663e277f4da8b4ca34815fa9
-10-05-2024 19:26:18.852 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/663e277f4da8b4ca34815fa9?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
-10-05-2024 19:26:20.351 [main] INFO  api.BoardsAPI - This was response Body: {
+13-05-2024 13:53:34.883 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:34.885 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:34.888 [main] INFO  api.BoardsAPI - Testing delete Card ID = 6641ce02dcc21548bdafd76b
+13-05-2024 13:53:34.889 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/6641ce02dcc21548bdafd76b?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:53:36.314 [main] INFO  api.BoardsAPI - This was response Body: {
     "_value": null
 }
-10-05-2024 19:26:20.352 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:20.354 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
-10-05-2024 19:26:20.354 [main] INFO  pages.BasePage - ------------------Delete flow Test Finished-------------------
-10-05-2024 19:26:20.366 [main] INFO  pages.BasePage - ------------------Delete flow Test Finished-------------------
+13-05-2024 13:53:36.315 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:36.317 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:53:36.317 [main] INFO  pages.BasePage - ------------------Delete flow Test Finished-------------------
+13-05-2024 13:53:36.335 [main] INFO  pages.BasePage - ------------------Delete flow Test Finished-------------------
+13-05-2024 13:55:29.192 [main] INFO  pages.BasePage - 
+
+          __   _,--="=--,_   __
+         /  \."    .-.    "./  \
+        /  ,/  _   : :   _  \/` \
+        \  `| /o\  :_:  /o\ |\__/
+         `-'| :="~` _ `~"=: |
+            \`     (_)     `/
+     .-"-.   \      |      /   .-"-.
+.---{     }--|  /,.-'-.,\  |--{     }---.
+ )  (_)_)_)  \_/`~-===-~`\_/  (_(_(_)  (
+(        						        )
+ )         A NEW RUN BEGINS HERE       (
+(           					       )
+'---------------------------------------'
+
+ 
+13-05-2024 13:55:29.388 [main] INFO  pages.BasePage - ------------------Individual Tests Test Started-------------------
+13-05-2024 13:55:29.390 [main] INFO  pages.BasePage - ------------------Individual Tests Test Started-------------------
+13-05-2024 13:55:29.417 [main] INFO  api.BoardsAPI - Testing create Board name = TestingCreateBoard
+13-05-2024 13:55:29.988 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:29.989 [main] INFO  api.BoardsAPI - With Payload {name=TestingCreateBoard}
+13-05-2024 13:55:42.811 [main] INFO  api.BoardsAPI - This was response Body: {
+    "id": "6641ce862546a777285e693c",
+    "name": "TestingCreateBoard",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "663c66757eab4f2b4b8f8bf4",
+    "idEnterprise": null,
+    "pinned": false,
+    "url": "https://trello.com/b/wFcs7od6/testingcreateboard",
+    "shortUrl": "https://trello.com/b/wFcs7od6",
+    "prefs": {
+        "permissionLevel": "private",
+        "hideVotes": false,
+        "voting": "disabled",
+        "comments": "members",
+        "invitations": "members",
+        "selfJoin": true,
+        "cardCovers": true,
+        "cardCounts": false,
+        "isTemplate": false,
+        "cardAging": "regular",
+        "calendarFeedEnabled": false,
+        "hiddenPluginBoardButtons": [
+            
+        ],
+        "switcherViews": [
+            {
+                "viewType": "Board",
+                "enabled": true
+            },
+            {
+                "viewType": "Table",
+                "enabled": true
+            },
+            {
+                "viewType": "Calendar",
+                "enabled": false
+            },
+            {
+                "viewType": "Dashboard",
+                "enabled": false
+            },
+            {
+                "viewType": "Timeline",
+                "enabled": false
+            },
+            {
+                "viewType": "Map",
+                "enabled": false
+            }
+        ],
+        "background": "blue",
+        "backgroundColor": "#0079BF",
+        "backgroundImage": null,
+        "backgroundTile": false,
+        "backgroundBrightness": "dark",
+        "sharedSourceUrl": null,
+        "backgroundImageScaled": null,
+        "backgroundBottomColor": "#0079BF",
+        "backgroundTopColor": "#0079BF",
+        "canBePublic": true,
+        "canBeEnterprise": true,
+        "canBeOrg": true,
+        "canBePrivate": true,
+        "canInvite": true
+    },
+    "labelNames": {
+        "green": "",
+        "yellow": "",
+        "orange": "",
+        "red": "",
+        "purple": "",
+        "blue": "",
+        "sky": "",
+        "lime": "",
+        "pink": "",
+        "black": "",
+        "green_dark": "",
+        "yellow_dark": "",
+        "orange_dark": "",
+        "red_dark": "",
+        "purple_dark": "",
+        "blue_dark": "",
+        "sky_dark": "",
+        "lime_dark": "",
+        "pink_dark": "",
+        "black_dark": "",
+        "green_light": "",
+        "yellow_light": "",
+        "orange_light": "",
+        "red_light": "",
+        "purple_light": "",
+        "blue_light": "",
+        "sky_light": "",
+        "lime_light": "",
+        "pink_light": "",
+        "black_light": ""
+    },
+    "limits": {
+        
+    }
+}
+13-05-2024 13:55:43.396 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:43.397 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:43.400 [main] INFO  api.BoardsAPI - Testing delete Card ID = 6641ce862546a777285e693c
+13-05-2024 13:55:43.400 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/6641ce862546a777285e693c?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:45.136 [main] INFO  api.BoardsAPI - This was response Body: {
+    "_value": null
+}
+13-05-2024 13:55:45.137 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:45.141 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:45.144 [main] INFO  api.BoardsAPI - Testing with no params
+13-05-2024 13:55:45.146 [main] INFO  pages.BasePage - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:45.750 [main] INFO  pages.BasePage - This was response Body: {
+    "message": "invalid value for name",
+    "error": "ERROR"
+}
+13-05-2024 13:55:45.753 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:45.756 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:45.759 [main] INFO  api.BoardsAPI - Testing with wrong Token
+13-05-2024 13:55:45.760 [main] INFO  pages.BasePage - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10garbage
+13-05-2024 13:55:46.261 [main] INFO  pages.BasePage - This was response Body: invalid app token
+13-05-2024 13:55:46.262 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:46.264 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:46.267 [main] INFO  api.BoardsAPI - Testing with wrong Resource url
+13-05-2024 13:55:46.268 [main] INFO  pages.BasePage - Hitting Endpoint https://api.trello.com/1/wrong-resource/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:46.786 [main] INFO  pages.BasePage - This was response Body: Cannot GET /1/wrong-resource/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:46.787 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:46.789 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:46.791 [main] INFO  pages.BasePage - ------------------Individual Tests Test Finished-------------------
+13-05-2024 13:55:46.842 [main] INFO  pages.BasePage - ------------------Individual Tests Test Finished-------------------
+13-05-2024 13:55:46.844 [main] INFO  pages.BasePage - ------------------Create flow Test Started-------------------
+13-05-2024 13:55:46.845 [main] INFO  pages.BasePage - ------------------Create flow Test Started-------------------
+13-05-2024 13:55:46.850 [main] INFO  api.BoardsAPI - Testing create Board name = TestingCreateBoard
+13-05-2024 13:55:46.852 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:46.852 [main] INFO  api.BoardsAPI - With Payload {name=TestingCreateBoard}
+13-05-2024 13:55:47.600 [main] INFO  api.BoardsAPI - This was response Body: {
+    "id": "6641ce8b2a5cad01b788221b",
+    "name": "TestingCreateBoard",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "663c66757eab4f2b4b8f8bf4",
+    "idEnterprise": null,
+    "pinned": false,
+    "url": "https://trello.com/b/hEQ6EOeE/testingcreateboard",
+    "shortUrl": "https://trello.com/b/hEQ6EOeE",
+    "prefs": {
+        "permissionLevel": "private",
+        "hideVotes": false,
+        "voting": "disabled",
+        "comments": "members",
+        "invitations": "members",
+        "selfJoin": true,
+        "cardCovers": true,
+        "cardCounts": false,
+        "isTemplate": false,
+        "cardAging": "regular",
+        "calendarFeedEnabled": false,
+        "hiddenPluginBoardButtons": [
+            
+        ],
+        "switcherViews": [
+            {
+                "viewType": "Board",
+                "enabled": true
+            },
+            {
+                "viewType": "Table",
+                "enabled": true
+            },
+            {
+                "viewType": "Calendar",
+                "enabled": false
+            },
+            {
+                "viewType": "Dashboard",
+                "enabled": false
+            },
+            {
+                "viewType": "Timeline",
+                "enabled": false
+            },
+            {
+                "viewType": "Map",
+                "enabled": false
+            }
+        ],
+        "background": "blue",
+        "backgroundColor": "#0079BF",
+        "backgroundImage": null,
+        "backgroundTile": false,
+        "backgroundBrightness": "dark",
+        "sharedSourceUrl": null,
+        "backgroundImageScaled": null,
+        "backgroundBottomColor": "#0079BF",
+        "backgroundTopColor": "#0079BF",
+        "canBePublic": true,
+        "canBeEnterprise": true,
+        "canBeOrg": true,
+        "canBePrivate": true,
+        "canInvite": true
+    },
+    "labelNames": {
+        "green": "",
+        "yellow": "",
+        "orange": "",
+        "red": "",
+        "purple": "",
+        "blue": "",
+        "sky": "",
+        "lime": "",
+        "pink": "",
+        "black": "",
+        "green_dark": "",
+        "yellow_dark": "",
+        "orange_dark": "",
+        "red_dark": "",
+        "purple_dark": "",
+        "blue_dark": "",
+        "sky_dark": "",
+        "lime_dark": "",
+        "pink_dark": "",
+        "black_dark": "",
+        "green_light": "",
+        "yellow_light": "",
+        "orange_light": "",
+        "red_light": "",
+        "purple_light": "",
+        "blue_light": "",
+        "sky_light": "",
+        "lime_light": "",
+        "pink_light": "",
+        "black_light": ""
+    },
+    "limits": {
+        
+    }
+}
+13-05-2024 13:55:47.623 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:47.624 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:47.625 [main] INFO  api.ListAPI - Creating list with name = {idBoard=6641ce8b2a5cad01b788221b, name=TestingCreateList}
+13-05-2024 13:55:47.626 [main] INFO  api.ListAPI - Hitting Endpoint https://api.trello.com/1/lists/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:47.626 [main] INFO  api.ListAPI - With Payload {idBoard=6641ce8b2a5cad01b788221b, name=TestingCreateList}
+13-05-2024 13:55:48.208 [main] INFO  api.ListAPI - This was response Body: {
+    "id": "6641ce8ca67bc3bf37305a1f",
+    "name": "TestingCreateList",
+    "closed": false,
+    "color": null,
+    "idBoard": "6641ce8b2a5cad01b788221b",
+    "pos": 8192,
+    "limits": {
+        
+    }
+}
+13-05-2024 13:55:48.241 [main] INFO  api.ListAPI - List Created with id = 6641ce8ca67bc3bf37305a1f
+13-05-2024 13:55:48.242 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:48.244 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:48.249 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:48.249 [main] INFO  api.CardsAPI - With Payload {name=TestingCreateCard, idList=6641ce8ca67bc3bf37305a1f}
+13-05-2024 13:55:48.924 [main] INFO  api.CardsAPI - This was response Body: {
+    "id": "6641ce8c3c54d17d413fe05c",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [
+        
+    ],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2024-05-13T08:25:48.694Z",
+    "desc": "",
+    "descData": {
+        "emoji": {
+            
+        }
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "6641ce8b2a5cad01b788221b",
+    "idChecklists": [
+        
+    ],
+    "idList": "6641ce8ca67bc3bf37305a1f",
+    "idMembers": [
+        
+    ],
+    "idMembersVoted": [
+        
+    ],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [
+        
+    ],
+    "idLabels": [
+        
+    ],
+    "manualCoverAttachment": false,
+    "name": "TestingCreateCard",
+    "pos": 16384,
+    "shortLink": "hMOKmF9q",
+    "shortUrl": "https://trello.com/c/hMOKmF9q",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/hMOKmF9q/1-testingcreatecard",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null,
+    "attachments": [
+        
+    ],
+    "stickers": [
+        
+    ],
+    "limits": {
+        
+    }
+}
+13-05-2024 13:55:48.966 [main] INFO  api.CardsAPI - Card Created with id = 6641ce8c3c54d17d413fe05c
+13-05-2024 13:55:48.967 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:48.969 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:48.972 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/6641ce8c3c54d17d413fe05c?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:48.972 [main] INFO  api.CardsAPI - With Payload {name=UpdatedCardName}
+13-05-2024 13:55:49.641 [main] INFO  api.CardsAPI - This was response Body: {
+    "id": "6641ce8c3c54d17d413fe05c",
+    "badges": {
+        "attachmentsByType": {
+            "trello": {
+                "board": 0,
+                "card": 0
+            }
+        },
+        "location": false,
+        "votes": 0,
+        "viewingMemberVoted": false,
+        "subscribed": false,
+        "fogbugz": "",
+        "checkItems": 0,
+        "checkItemsChecked": 0,
+        "checkItemsEarliestDue": null,
+        "comments": 0,
+        "attachments": 0,
+        "description": false,
+        "due": null,
+        "dueComplete": false,
+        "start": null
+    },
+    "checkItemStates": [
+        
+    ],
+    "closed": false,
+    "dueComplete": false,
+    "dateLastActivity": "2024-05-13T08:25:49.365Z",
+    "desc": "",
+    "descData": {
+        "emoji": {
+            
+        }
+    },
+    "due": null,
+    "dueReminder": null,
+    "email": null,
+    "idBoard": "6641ce8b2a5cad01b788221b",
+    "idChecklists": [
+        
+    ],
+    "idList": "6641ce8ca67bc3bf37305a1f",
+    "idMembers": [
+        
+    ],
+    "idMembersVoted": [
+        
+    ],
+    "idShort": 1,
+    "idAttachmentCover": null,
+    "labels": [
+        
+    ],
+    "idLabels": [
+        
+    ],
+    "manualCoverAttachment": false,
+    "name": "UpdatedCardName",
+    "pos": 16384,
+    "shortLink": "hMOKmF9q",
+    "shortUrl": "https://trello.com/c/hMOKmF9q",
+    "start": null,
+    "subscribed": false,
+    "url": "https://trello.com/c/hMOKmF9q/1-updatedcardname",
+    "cover": {
+        "idAttachment": null,
+        "color": null,
+        "idUploadedBackground": null,
+        "size": "normal",
+        "brightness": "dark",
+        "idPlugin": null
+    },
+    "isTemplate": false,
+    "cardRole": null
+}
+13-05-2024 13:55:49.666 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:49.667 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:49.668 [main] INFO  pages.BasePage - ------------------Create flow Test Finished-------------------
+13-05-2024 13:55:49.683 [main] INFO  pages.BasePage - ------------------Create flow Test Finished-------------------
+13-05-2024 13:55:49.684 [main] INFO  pages.BasePage - ------------------Delete flow Test Started-------------------
+13-05-2024 13:55:49.685 [main] INFO  pages.BasePage - ------------------Delete flow Test Started-------------------
+13-05-2024 13:55:49.688 [main] INFO  api.CardsAPI - Delete Card ID = 6641ce8c3c54d17d413fe05c
+13-05-2024 13:55:49.690 [main] INFO  api.CardsAPI - Hitting Endpoint https://api.trello.com/1/cards/6641ce8c3c54d17d413fe05c?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:50.659 [main] INFO  api.CardsAPI - This was response Body: {
+    "limits": {
+        
+    }
+}
+13-05-2024 13:55:50.660 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:50.661 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:50.663 [main] INFO  api.ListAPI - archiving list with id = 6641ce8ca67bc3bf37305a1f
+13-05-2024 13:55:50.664 [main] INFO  api.ListAPI - Hitting Endpoint https://api.trello.com/1/lists/6641ce8ca67bc3bf37305a1f?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:50.665 [main] INFO  api.ListAPI - With Payload {value=true}
+13-05-2024 13:55:51.691 [main] INFO  api.ListAPI - This was response Body: {
+    "id": "6641ce8ca67bc3bf37305a1f",
+    "name": "TestingCreateList",
+    "closed": false,
+    "color": null,
+    "idBoard": "6641ce8b2a5cad01b788221b",
+    "pos": 8192
+}
+13-05-2024 13:55:51.693 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:51.695 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:51.697 [main] INFO  api.BoardsAPI - Testing delete Card ID = 6641ce8b2a5cad01b788221b
+13-05-2024 13:55:51.698 [main] INFO  api.BoardsAPI - Hitting Endpoint https://api.trello.com/1/boards/6641ce8b2a5cad01b788221b?key=4dab698ecea3c4a228d252743571d785&token=ATTAf15cdff62493a9bc0f4b3920cd84b45235a604f5d43a185e3e8a401b79a2bdb9028AED10
+13-05-2024 13:55:53.634 [main] INFO  api.BoardsAPI - This was response Body: {
+    "_value": null
+}
+13-05-2024 13:55:53.635 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:53.638 [main] INFO  pages.BasePage - ------------------Test Passed-------------------
+13-05-2024 13:55:53.639 [main] INFO  pages.BasePage - ------------------Delete flow Test Finished-------------------
+13-05-2024 13:55:53.655 [main] INFO  pages.BasePage - ------------------Delete flow Test Finished-------------------

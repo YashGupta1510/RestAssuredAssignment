@@ -1,0 +1,9 @@
+api\BoardsAPI.class
+pages\BasePage.class
+api\CardsAPI.class
+utils\Helper.class
+api\ListAPI.class
+utils\PostPayload.class
+utils\TestNGListener.class
+utils\Resources.class
+utils\FileReader.class

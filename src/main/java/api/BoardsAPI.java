@@ -2,7 +2,6 @@ package api;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Assert;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -17,7 +16,7 @@ public class BoardsAPI extends BasePage {
 	protected static Logger log = LogManager.getLogger();
 	static String id;
 	
-	public void createBoard(String name) {
+	public String createBoard(String name) {
 		log.info("Testing create Board name = " + name);
 		extentTest.info("Testing create Board name = "+ name);
 		
@@ -25,10 +24,11 @@ public class BoardsAPI extends BasePage {
 		
 		JsonPath js = response.jsonPath();
 		id = js.get("id");
+		String testName = js.get("name");
 		
 		PostPayload.addNewList(id);
 		
-		Assert.assertEquals(response.statusCode(), 200);
+		return testName;
 	}
 	
 	
@@ -40,5 +40,29 @@ public class BoardsAPI extends BasePage {
 		return helper.deleteRequest(Resources.BoardsEndpoint, id, log);
 	}
 	
+	public Response wrongResourceIssue() {
 		
+		log.info("Testing with wrong Resource url");
+		extentTest.info("Testing with wrong Resource url");
+		return helper.wrongResourceIssue();
+	}
+	
+	public Response wrongCredentialsIssue() {
+	
+		log.info("Testing with wrong Token");
+		extentTest.info("Testing with wrong Token");
+		
+		return helper.wrongCredentialsIssue();
+	}
+	
+	public Response badRequestIssue() {
+		
+		log.info("Testing with no params");
+		extentTest.info("Testing with no params");
+		
+		return helper.badRequestIssue();
+	}
+	
+	
+	
 }
